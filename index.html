@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenyan Culture & Facts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Kenya!</h1>
+    </header>
 
+    <main>
+        <section class="section-card">
+            <h2>Part 1: Basic Facts & User Input</h2>
+            <p>Enter your name to see a personalized welcome message.</p>
+            <input type="text" id="nameInput" placeholder="Your Name">
+            <button id="welcomeButton">Say Hello</button>
+            <p id="welcomeMessage"></p>
+        </section>
+
+        <section class="section-card">
+            <h2>Part 2: Kenyan Currencies & Calculations</h2>
+            <p>Let's convert Kenyan Shillings (KES) to US Dollars (USD).</p>
+            <input type="number" id="kesAmount" placeholder="Amount in KES">
+            <button id="convertButton">Convert to USD</button>
+            <p id="conversionResult"></p>
+        </section>
+        
+        <section class="section-card">
+            <h2>Part 3: Countdown to the Great Migration</h2>
+            <p>A simple countdown to one of Kenya's natural wonders.</p>
+            <button id="startCountdown">Start Countdown</button>
+            <ul id="countdownList"></ul>
+        </section>
+        
+        <section class="section-card">
+            <h2>Part 4: Interactive Kenyan Icons</h2>
+            <div class="icon-container">
+                <img id="lion-icon" src="https://via.placeholder.com/100" alt="Lion Icon">
+                <img id="maasai-icon" src="https://via.placeholder.com/100" alt="Maasai Icon">
+                <img id="flag-icon" src="https://via.placeholder.com/100" alt="Kenyan Flag Icon">
+            </div>
+            <p id="icon-description">Click an icon to learn more!</p>
+            <button id="addFactButton">Add a Fun Fact</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
